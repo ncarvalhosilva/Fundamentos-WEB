@@ -8,6 +8,10 @@
     text-align: justify;
 }
 
+.coluna {
+    flex-direction: column;
+}
+
 .container {
     display: flex;
     flex-flow: row;
@@ -49,5 +53,18 @@
 }
 
 /* ESTILOS PÁGINA CONTATO.HTML */
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+}
+
+.mb-50 {
+    margin-bottom: 20px;
+}
+
+.ml-50 {
+    margin-left: 50px;
+}
 
 /* ESTILOS PÁGINA MEUS AMIGOS.HTML */
