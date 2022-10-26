@@ -8,10 +8,6 @@
     text-align: justify;
 }
 
-.coluna {
-    flex-direction: column;
-}
-
 .container {
     display: flex;
     flex-flow: row;
