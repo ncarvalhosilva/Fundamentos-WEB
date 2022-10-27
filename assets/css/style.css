@@ -1,0 +1,107 @@
+/* ESTILOS PÁGINA INDEX.HTML */
+
+.center {
+    text-align: center;
+}
+
+
+.justify {
+    text-align: justify;
+}
+
+.coluna {
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* BACKGOUNDS */
+.bgMarrom {
+    background-color: #c57820ee
+}
+
+.bgLaranja {
+    background-color: #b1601fee
+}
+
+/* COLORS */
+.colorOw {
+    color: beige;
+}
+
+.colorMarrom {
+    color: #291809;
+}
+
+#menu li {
+    display: inline;
+    padding: 15px;
+    font-size: 20px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: beige;
+}
+
+#menu li a:hover {
+    color: black;
+}
+
+.p-30 {
+    padding: 30px;
+}
+
+.p-15 {
+    padding: 15px;
+}
+
+.br-50 {
+    border-radius: 50%;
+}
+
+.hw-300 {
+    height: 300px;
+    width: 300px;
+}
+
+.tm-social {
+    height: 30px;
+    width: 30px;
+}
+
+/* ESTILOS PÁGINA CONTATO.HTML */
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+}
+
+.mb-50 {
+    margin-bottom: 20px;
+}
+
+.ml-50 {
+    margin-left: 50px;
+}
+
+
+/* ESTILOS PÁGINA MEUS AMIGOS.HTML */
+
+.tm-img200 {
+    height: 200px;
+    }
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    }
+
+   
