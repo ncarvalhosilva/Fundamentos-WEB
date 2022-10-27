@@ -4,6 +4,7 @@
     text-align: center;
 }
 
+
 .justify {
     text-align: justify;
 }
@@ -19,6 +20,24 @@
     align-items: center;
 }
 
+/* BACKGOUNDS */
+.bgMarrom {
+    background-color: #c57820ee
+}
+
+.bgLaranja {
+    background-color: #b1601fee
+}
+
+/* COLORS */
+.colorOw {
+    color: beige;
+}
+
+.colorMarrom {
+    color: #291809;
+}
+
 #menu li {
     display: inline;
     padding: 15px;
@@ -27,15 +46,19 @@
 
 #menu li a {
     text-decoration: none;
-    color: black;
+    color: beige;
 }
 
 #menu li a:hover {
-    color: brown;
+    color: black;
 }
 
 .p-30 {
     padding: 30px;
+}
+
+.p-15 {
+    padding: 15px;
 }
 
 .br-50 {
@@ -48,8 +71,8 @@
 }
 
 .tm-social {
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
 }
 
 /* ESTILOS PÁGINA CONTATO.HTML */
@@ -67,15 +90,16 @@
     margin-left: 50px;
 }
 
+
 /* ESTILOS PÁGINA MEUS AMIGOS.HTML */
 
-.tm-img {
+.tm-img200 {
     height: 200px;
     }
 
 .container2 {
     display: flex;
-    flex-flow: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     }
